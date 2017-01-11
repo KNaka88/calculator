@@ -12,7 +12,10 @@
 
   <div class="container">
     <h1>Calculator</h1>
+
+    <!-- Add Form  -->
     <form id="add">
+      <h2>Add Calculator</h2>
       <div class="form-group">
         <label for="add1">1st number:</label>
         <input id="add1" class="form-control" type="text">
@@ -26,6 +29,67 @@
     <div id="output">
     </div>
 
-  </div>
+    <!--Subtract Form  -->
+
+    <form id="subtract">
+      <h2>Subtract Calculator</h2>
+      <div class="form-group">
+        <label for="subtract1">1st number</label>
+        <input id="subtract1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="subtract2">2nd number</label>
+        <input id="subtract2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn bg-info">Subtract!</button>
+      <button type="reset" class="btn bg-warning">Reset</button>
+    </form>
+    <div id="output2">
+    </div>
+
+    <!-- Multiply Form  -->
+    <form id="multiply">
+      <h2>Multiply Calculator</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="multiply1">1st number</label>
+            <input id="multiply1" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="multiply2">2nd number</label>
+            <input id="multiply2" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn bg-info">Multiply</button>
+      <button type="reset" class="btn bg-warning">Reset</button>
+      <div class="form-group">
+        <input id="output3" class="form-control" type="text">
+      </div>
+    </form>
+
+
+    <!-- Divide Form  -->
+    <form id="divide">
+      <h2>Divide Calculator</h2>
+      <div class="form group">
+        <label for="divide1">1st number</label>
+        <input id="divide1" class="form-control" type="text">
+      </div>
+      <div class="form group">
+        <label for="divide2">2nd number</label>
+        <input id="divide2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn bg-info">Divide</button>
+      <button type="reset" class="btn bg-warning">Reset</button>
+      <div class="form-group">
+        <input id="output4" class="form-control" type="text">
+      </div>
+    </form>
+  </div> <!--End of container -->
   </body>
 </html>
